@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Garamond;
+    src: url('font/EBGaramond.ttf') format('ttf');
+}
+:root{
+    width: 80%;
+    margin: auto;
+    background-image: url("images/background3.jpg");
+    background-repeat:inherit;
+    background-blend-mode:overlay;
+    background-color: #cccccc;
+    font-family: Garamond, sans-serif, Times, Helvetica, lucida;  
+    font-size:large;
+    font-weight:800;
+}
+nav{
+    color: white;
+    background-color: black;
+}
+nav>h4{
+    text-align: center;
+}
+nav li{
+    display:block;
+    /* text-align: center; */
+    align-items: center;
+    background-color: darkblue;
+    margin: .5rem;
+    width: auto;
+    padding: 0.30rem;
+    list-style-type:none;
+}
+main > p{
+    text-align: center;
+    background-color: Gainsboro;
+}
+main ul{
+    list-style: none;
+    background-color: grey;
+}
+
+section>p{
+    padding: 25px, 50px;
+    border: 10px;
+    margin: auto;
+    display: block;
+    margin: 4px 1px 4px 1px;
+    background-color: Gainsboro;
+    border-collapse: collapse;
+}
+img{
+    width: 100%;
+    display: inline-block;
+}
+footer{
+    block-size: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+a:link {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: yellowgreen;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: mediumorchid;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  @media screen and (min-width: 768px){
+      nav li{
+          display:inline-block;
+      }
+  }
+  @media screen and (min-width: 2000px){
+      :root{
+          width: 1200px;
+      }
+  }
+
